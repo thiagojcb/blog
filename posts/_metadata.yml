@@ -3,9 +3,9 @@
 comments:
   giscus:
     repo: thiagojcb/blog
-    repo-id: R_kgDOVoCxEg
+    repo-id: R_kgDOVoHumQ
     category: Announcements
-    category-id: DIC_kwDOVoCxEs4DKuNd
+    category-id: DIC_kwDOVoHumc4DKumt
     mapping: pathname
     reactions-enabled: true
     input-position: bottom
