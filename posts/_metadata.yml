@@ -1,0 +1,15 @@
+# Comentários (Giscus). Preencha os 4 valores obtidos em https://giscus.app
+# depois de ativar Discussions e instalar o app Giscus no novo repositório.
+comments:
+  giscus:
+    repo: thiagojcb/blog
+    repo-id: R_kgDOVoCxEg
+    category: Announcements
+    category-id: DIC_kwDOVoCxEs4DKuNd
+    mapping: pathname
+    reactions-enabled: true
+    input-position: bottom
+    theme: light
+    language: pt
+    loading: lazy
+citation-location: document

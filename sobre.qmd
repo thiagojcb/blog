@@ -1,0 +1,12 @@
+---
+title: "Sobre"
+toc: false
+---
+
+*Um átomo no universo* é um espaço para descarregamentos de ideias e outras aleatoriedades, escrito por Thiago Bezerra.
+
+O nome vem de uma reflexão do físico Richard Feynman, no ensaio "O valor da ciência" (1955), sobre o lugar de cada um de nós no universo.
+
+Os textos são abertos a comentários (moderados, claro, para evitar abusos), que ficam no fim de cada artigo (é preciso uma conta gratuita no GitHub para comentar).
+
+<!-- Escreva aqui mais algumas linhas sobre você. -->

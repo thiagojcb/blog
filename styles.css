@@ -1,0 +1,9 @@
+/* Tabelas largas rolam horizontalmente no celular, sem empurrar a página */
+main table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+main table th, main table td { white-space: normal; }
+/* Links longos nas referências quebram linha no celular */
+.csl-entry a, .csl-right-inline a { overflow-wrap: anywhere; word-break: break-all; }

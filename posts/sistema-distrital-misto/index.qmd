@@ -1,0 +1,228 @@
+---
+title: "Proposta de um sistema distrital misto proporcional para a Câmara dos Deputados"
+description: "Com dois votos, 588 cadeiras e peso igual para cada eleitor."
+author:
+  - Thiago Bezerra
+  - Claudio Antropico Opus Quinto
+date: 2026-11-08
+categories: [Reforma política, Eleições]
+bibliography: referencias.bib
+csl: numerico.csl
+link-citations: true
+---
+
+## Resumo
+
+Esta proposta substitui o sistema proporcional de lista aberta na Câmara dos Deputados por um sistema distrital misto proporcional, a partir da eleição de 2030. Cada eleitor dá dois votos: um para um candidato em um distrito uninominal e outro para a lista estadual de um partido.
+
+A Câmara cresce uma única vez, de 513 para 588 cadeiras, distribuídas entre os estados conforme a população. Depois disso, o total fica congelado. Cada estado mantém no mínimo 2 cadeiras, e metade das cadeiras de cada estado é distrital. O distrito médio de cada estado fica a até ±15% da média nacional, padrão recomendado pela Comissão de Veneza, com exceção apenas para os estados de um único distrito.
+
+As cadeiras são distribuídas proporcionalmente dentro de cada estado, entre os partidos que obtêm pelo menos 3% do voto partidário nacional ou vencem 3 distritos em pelo menos 2 estados. Todo vencedor distrital mantém sua cadeira. Metade das listas estaduais de cada partido deve ser encabeçada por mulheres, com alternância de gênero; pelo menos 30% dos candidatos distritais de cada partido no país devem ser mulheres.
+
+Os principais ganhos são o peso igual do voto de cada cidadão, um deputado que cada eleitor pode identificar e cobrar, campanhas mais baratas, o fim dos "puxadores de voto" e mais mulheres na Câmara. Os principais custos são 75 cadeiras a mais (mas sem aumentar o orçamento atual da Câmara), menor proporcionalidade nos estados menores e a necessidade de uma emenda constitucional.
+
+## Problemas do sistema atual
+
+Hoje, 513 deputados são eleitos por representação proporcional de lista aberta em 27 circunscrições estaduais de 8 a 70 cadeiras. Cinco problemas motivam a reforma:
+
+| Problema | O que significa | Evidência |
+|---|---|---|
+| Peso desigual do voto | O mínimo de 8 e o máximo de 70 cadeiras dão ao eleitor de Roraima cerca de 8 vezes o peso do eleitor de São Paulo | Cerca de 79,5 mil habitantes por deputado em RR contra 634 mil em SP (Censo 2022, aproximado) |
+| Puxadores de voto elegem outros | As sobras de votos de um candidato elegem colegas de partido que o eleitor não escolheu | Em 2002, Enéas (Prona-SP) teve cerca de 1,57 milhão de votos e o Prona elegeu 6 deputados em SP, entre eles Vanderlei Assis, com apenas 275 votos [@antagonista275]. Em 2010, os cerca de 1,35 milhão de votos de Tiririca (PR-SP) abriram vagas para Otoniel Lima (PRB), Vanderlei Siraque (PT) e Protógenes Queiroz (PCdoB) [@gazeta2010tiririca]. Desde 2015, o eleito precisa de ao menos 10% do quociente eleitoral, o que impede casos extremos como o de 275 votos, mas o efeito continua: em 2026, Nikolas Ferreira (PL-MG) e Lucas Pavanato (PL-SP) passaram de 3 milhões de votos cada; o primeiro garantiu sozinho a eleição de mais 13 deputados do partido, e o segundo, de mais 7 [@folha2026reforma] |
+| Falta de responsabilização local | Os deputados respondem a eleitores dispersos por todo o estado | Em pesquisa Datafolha de junho de 2026 (2.004 entrevistas, margem de ±2 pontos), 67% dos eleitores não lembravam em quem votaram para deputado federal em 2022 [@sbt2026datafolha] |
+| Campanhas caras | Os candidatos disputam o estado inteiro, contra rivais do próprio partido | Mais de 34 milhões de eleitores em todo o estado de São Paulo |
+| Partidos fracos | A competição dentro do partido premia marcas pessoais em vez de programas e ideias | 30 partidos elegeram deputados em 2018; 19 em 2022, após as reformas [@wiki2018; @wiki2022] |
+
+## O sistema proposto
+
+Cada eleitor dá dois votos para deputado federal na urna eletrônica:
+
+1. **Voto distrital (2 dígitos).** Cada partido pode lançar um candidato por distrito, então o eleitor digita o número do partido e aparece o candidato local daquele partido. Vence o candidato com mais votos válidos, em turno único.
+2. **Voto partidário (2 dígitos).** O eleitor escolhe a lista estadual fechada de um partido. Federações e coligações não concorrem, apenas partidos isolados disputam as eleições para a Câmara. A tela mostra os primeiros cinco nomes da lista.
+
+O voto partidário define quantas cadeiras cada partido obtém no estado. Os vencedores distritais ocupam suas cadeiras primeiro, e a lista preenche as demais. Cada candidato escolhe entre concorrer em um distrito ou integrar a lista do partido, não podendo fazer as duas coisas.
+
+## Tamanho da Câmara e distribuição das cadeiras
+
+A Câmara terá 588 cadeiras: 294 distritais e 294 de lista. O tamanho é definido uma única vez, para a primeira eleição sob as novas regras, e depois congelado.
+
+**Primeira distribuição (2030).** Os 294 distritos são distribuídos entre os estados proporcionalmente à população, com mínimo de 1 distrito por estado. As cadeiras de cada estado são o dobro de seus distritos, de modo que o mínimo é de 2 cadeiras (1 distrital e 1 de lista). A escolha do total de 588 é explicada no [Apêndice técnico, item A](#sec-apendice-a).
+
+**Censos seguintes.** O total permanece em 588 (294 distritos). Após cada censo, os 294 distritos são redistribuídos entre os estados, com mínimo de 1 distrito por estado, e os distritos são redesenhados de forma que sejam contínuos e compactos. As cadeiras de cada estado continuam sendo o dobro de seus distritos. Se, após um censo, algum estado com 2 ou mais distritos ultrapassar o desvio de ±15%, o Congresso deve revisar o total de cadeiras.
+
+| Estado | População (mi) | Cadeiras atuais | Cadeiras propostas | Variação | Distritos | Habitantes por distrito (mil) | Desvio em relação à média nacional (691 mil) |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| SP | 44,41 | 70 | 128 | +58 | 64 | 694 | +0,5% |
+| MG | 20,54 | 53 | 60 | +7 | 30 | 685 | −0,9% |
+| RJ | 16,06 | 46 | 46 | 0 | 23 | 698 | +1,1% |
+| BA | 14,14 | 39 | 40 | +1 | 20 | 707 | +2,4% |
+| PR | 11,44 | 30 | 32 | +2 | 16 | 715 | +3,6% |
+| RS | 10,88 | 31 | 32 | +1 | 16 | 680 | −1,5% |
+| PE | 9,06 | 25 | 26 | +1 | 13 | 697 | +0,9% |
+| CE | 8,79 | 22 | 26 | +4 | 13 | 676 | −2,1% |
+| PA | 8,12 | 17 | 24 | +7 | 12 | 677 | −2,0% |
+| SC | 7,61 | 16 | 22 | +6 | 11 | 692 | +0,2% |
+| GO | 7,06 | 17 | 20 | +3 | 10 | 706 | +2,2% |
+| MA | 6,78 | 18 | 20 | +2 | 10 | 678 | −1,9% |
+| PB | 3,97 | 12 | 12 | 0 | 6 | 662 | −4,1% |
+| AM | 3,94 | 8 | 12 | +4 | 6 | 657 | −4,9% |
+| ES | 3,83 | 10 | 12 | +2 | 6 | 639 | −7,5% |
+| MT | 3,66 | 8 | 10 | +2 | 5 | 732 | +5,9% |
+| RN | 3,30 | 8 | 10 | +2 | 5 | 660 | −4,4% |
+| PI | 3,27 | 10 | 10 | 0 | 5 | 654 | −5,3% |
+| AL | 3,13 | 9 | 10 | +1 | 5 | 625 | −9,5% |
+| DF | 2,82 | 8 | 8 | 0 | 4 | 704 | +2,0% |
+| MS | 2,76 | 8 | 8 | 0 | 4 | 689 | −0,2% |
+| SE | 2,21 | 8 | 6 | −2 | 3 | 737 | +6,7% |
+| RO | 1,58 | 8 | 4 | −4 | 2 | 791 | +14,5% |
+| TO | 1,51 | 8 | 4 | −4 | 2 | 756 | +9,4% |
+| AC | 0,83 | 8 | 2 | −6 | 1 | 830 | +20,2% (exceção: distrito único) |
+| AP | 0,73 | 8 | 2 | −6 | 1 | 734 | +6,3% |
+| RR | 0,64 | 8 | 2 | −6 | 1 | 636 | −7,9% |
+| **Total** | **203,07** | **513** | **588** | **+75** | **294** | | |
+
+Dezesseis estados ganham cadeiras, 5 ficam iguais e 6 perdem: AC, AP e RR caem para o mínimo de 2 cadeiras, RO e TO para 4 e SE para 6. O índice de desproporcionalidade na distribuição entre estados (malapportionment) [@samuels2001] cai de 0,104 para cerca de 0,011 (definição e cálculo no [Apêndice técnico, item B](#sec-apendice-b)).
+
+## Distritos
+
+A Justiça Eleitoral (TSE e tribunais regionais) desenha os distritos seguindo as regras:
+
+- **Dentro de um estado:** a população de cada distrito fica dentro de ±5% da média distrital daquele estado.
+- **Entre estados:** o distrito médio de cada estado com 2 ou mais distritos fica a até ±15% da média nacional. É o limite máximo recomendado pelo Código de Boas Práticas em Matéria Eleitoral da Comissão de Veneza (Conselho da Europa, 2002), item I.2.2.iv [@veneza2002], que admite exceções para unidades administrativas pouco populosas. Por isso, estados com um único distrito ficam isentos, até um limite de segurança de ±50% (ver [Apêndice técnico, item A](#sec-apendice-a)). Hoje, o maior desvio entre estados com 2 ou mais distritos é o de Rondônia (+14,5%), e entre os de distrito único, o do Acre (+20,2%).
+- **Formato:** os distritos são contíguos e o mais compactos possível. Seguem os limites municipais sempre que possível; municípios grandes são divididos por setores censitários.
+- **Processo:** os mapas preliminares são publicados, ficam em consulta pública por 60 dias e depois são aprovados pelo TSE. Qualquer partido pode contestar um mapa perante o TSE.
+- **Calendário:** os distritos só são redesenhados após um censo, nunca entre censos.
+
+Na prática, a cidade de São Paulo (cerca de 11,5 milhões de habitantes) teria cerca de 17 distritos, e Roraima seria um único distrito.
+
+## Distribuição das cadeiras
+
+As cadeiras são distribuídas estado por estado, em cinco etapas:
+
+1. **Habilitação (nacional).** Um partido se habilita às cadeiras de lista se obtiver pelo menos 3% dos votos partidários válidos no país, ou vencer pelo menos 3 distritos distribuídos em pelo menos 2 estados (ver [Apêndice técnico, item C](#sec-apendice-c)).
+2. **Vencedores de partidos não habilitados.** O vencedor distrital de um partido não habilitado mantém sua cadeira. Essa cadeira é descontada do total do estado antes da etapa seguinte.
+3. **Cota proporcional (estadual).** As cadeiras restantes do estado são divididas entre os partidos habilitados, na proporção de seus votos partidários naquele estado, pelo método Sainte-Laguë, que é um método de divisores que não favorece sistematicamente partidos grandes nem pequenos (ver [Apêndice técnico, item D](#sec-apendice-d)). O método também gera a sequência ordenada de cadeiras usada na etapa 5.
+4. **Vencedores distritais primeiro.** Os vencedores distritais de cada partido ocupam sua cota. Os candidatos da lista preenchem as cadeiras restantes, na ordem da lista.
+5. **Cadeiras excedentes.** Se um partido vence mais distritos do que sua cota, todos os seus vencedores mantêm as cadeiras. As cadeiras extras são retiradas das cotas ainda não preenchidas de outros partidos, a partir da última posição da sequência e em ordem inversa. O total do estado nunca muda. A regra segue o projeto aprovado pelo Senado em 2017 [@pl9212].
+
+
+## Listas e candidaturas
+
+**Regras de gênero** (gênero conforme a identidade declarada pela candidata ou candidato, seguindo a prática atual do TSE):
+
+- Toda lista estadual alterna mulheres e homens do início ao fim.
+- Cada partido encabeça pelo menos metade de suas listas estaduais com uma mulher. Um partido com listas nos 27 estados encabeça pelo menos 13 com mulheres e no máximo 14 com o mesmo gênero.
+- Pelo menos 30% dos candidatos distritais de cada partido no país são mulheres.
+- A Justiça Eleitoral indefere o registro de listas ou candidaturas que não cumpram as regras, como já faz hoje com a cota de 30% de candidaturas.
+
+**Como os partidos escolhem seus candidatos.** Cada partido decide livremente como selecionar os candidatos distritais e ordenar suas listas: prévias, convenções ou escolha da direção. Isso segue a autonomia partidária garantida pelo artigo 17 da Constituição. Valem duas regras de transparência:
+
+- O método de seleção deve constar do estatuto do partido pelo menos um ano antes da eleição.
+- As listas são publicadas na íntegra no momento do registro, para que os eleitores possam avaliá-las antes do voto partidário.
+
+## Vagas e ministros
+
+Não há suplentes. As cadeiras vagas durante o mandato são preenchidas da seguinte forma:
+
+| Cadeira que fica vaga | Mais de 12 meses antes do fim do mandato | Nos últimos 12 meses |
+|---|---|---|
+| Cadeira distrital | Eleição suplementar naquele distrito em até 90 dias | Preenchida pelo próximo nome não eleito da lista estadual do mesmo partido, até o fim do mandato |
+| Cadeira de lista | Próximo nome não eleito da lista estadual do mesmo partido | Idem |
+| Cadeira distrital de partido sem lista naquele estado, ou com lista esgotada | Eleição suplementar em até 90 dias | Fica vaga |
+
+**Ministros.** O deputado que assume como Ministro de Estado deve renunciar ao mandato. A vaga segue então a tabela acima. Isso exige emendar o artigo 56 da Constituição, que hoje permite ao deputado assumir ministério sem perder o mandato.
+
+## Efeitos esperados
+
+Em comparação com o sistema usado atualmente, a proposta melhora a igualdade, a responsabilização e a representação feminina, e custa tamanho, simplicidade e proporcionalidade nos estados pequenos.
+
+| Critério | Como se mede | Sistema atual | Proposta | Avaliação |
+|---|---|---|---|---|
+| Peso igual do voto | Índice de desproporcionalidade entre estados | 0,104 | Cerca de 0,011 | Melhora |
+| Responsabilização local | Deputados com território definido | Nenhum | Metade da Câmara | Melhora |
+| Custo de campanha | Eleitores que um candidato precisa alcançar | Estado inteiro (34 mi+ em SP) | Cerca de 540 mil eleitores por distrito | Provavelmente melhora |
+| Cadeiras de puxadores | Cadeiras obtidas com as sobras de outro candidato | Comuns | Nenhuma nos distritos; o efeito passa para o voto partidário | Melhora |
+| Mulheres | Percentual de cadeiras ocupadas por mulheres | 21% (2026) [@portal2026mulheres] | Estimativa de 30–35% | Melhora |
+| Fragmentação | Número efetivo de partidos | 9,2 (2022) [@wiki2022] | Cerca de 9,2 com os votos de 2022; menor após fusões | Igual, depois provavelmente melhor |
+| Simplicidade | Votos para deputado federal | 1 | 2 | Um pouco pior |
+| Peso dos estados pequenos | Cadeiras de AC, AP, RR, RO, TO e SE | 48 | 20 | Piora por desenho (já compensada pelo Senado) |
+
+## Riscos, questões em aberto e salvaguardas
+
+| Risco | Por que importa | Salvaguarda proposta |
+|---|---|---|
+| Captura de distritos pelo crime organizado | Milícias e facções que controlam território podem achar um distrito pequeno mais fácil de vencer do que uma disputa estadual | Análise mais rigorosa das candidaturas, auditoria de financiamento de campanha por distrito, apoio da Polícia Federal em distritos sinalizados |
+| Partidos-satélite | Um partido pode lançar candidatos distritais e direcionar o voto partidário a um partido-satélite, que ganha cadeiras de lista como compensação | As cadeiras excedentes são absorvidas dentro do estado, o que limita o ganho; o TSE pode indeferir listas gêmeas coordenadas como fraude eleitoral |
+| Mulheres em distritos sem chance | A regra de 30% nos distritos pode ser cumprida com candidaturas sem viabilidade | Publicar as candidatas de cada partido comparadas à votação anterior do partido em cada distrito; revisar a regra após 2030 |
+| Direções partidárias controlam as listas | Listas fechadas concentram poder onde os partidos não têm democracia interna | Métodos de formação das listas fixados no estatuto com um ano de antecedência; listas completas publicadas no registro |
+| Pressão por gastos locais | Deputados distritais podem se concentrar em emendas para sua região | Associar a reforma a regras de transparência sobre emendas parlamentares |
+| Custo e reação pública | 75 deputados a mais | Limitar o orçamento total da Câmara ao nível de 2026 em termos reais |
+| Baixa proporcionalidade nos estados pequenos | Um estado com 2 cadeiras tem 1 distrito e 1 cadeira de lista | Aceita como preço do mínimo de 2 cadeiras; o Senado preserva o peso igual dos estados |
+| Menos deputados viram ministros | Renunciar a uma cadeira distrital provoca eleição suplementar | Efeito desejado: ministros virão com mais frequência de cadeiras de lista ou de fora do Congresso |
+
+## Caminho legal
+
+A reforma exige uma proposta de emenda à Constituição (PEC) e legislação ordinária. A PEC precisa de três quintos dos votos nas duas Casas, em dois turnos cada.
+
+**Emenda constitucional:**
+
+- Artigo 45, §1º: substituir o mínimo de 8 e o máximo de 70 cadeiras pelo mínimo de 2 cadeiras e pelo total de 588, com o limite de ±15% entre estados e a exceção para estados de distrito único.
+- Artigo 45, caput: declarar que o sistema distrital misto proporcional atende ao sistema proporcional, para evitar contestações no Supremo Tribunal Federal.
+- Artigo 56: retirar a exceção que permite ao deputado assumir ministério sem perder o mandato.
+
+**Leis ordinárias e complementares:** o Código Eleitoral e a Lei das Eleições (regras de distribuição, dois votos, listas, regras de gênero, vagas) e a Lei Complementar 78/1993 (cadeiras por estado), além da Lei 14.208/2021, para extinguir as federações partidárias nas eleições para a Câmara.
+
+## Anexo: dados e premissas
+
+**Premissas e limitações:**
+
+- As populações estaduais são números aproximados do Censo 2022, ainda não conferidos com as tabelas oficiais do IBGE.
+- O percentual de mulheres (30–35%) é uma estimativa, supondo que os distritos elejam de 15% a 20% de mulheres.
+
+**Leitura complementar** (não citada no texto):
+
+- [Congresso em Foco: Câmara se mexe para mudar regra de eleição](https://www.congressoemfoco.com.br/amp/noticia/107561/camara-se-mexe-para-mudar-regra-de-eleicao-de-deputado-e-vereador)
+- [Jornal de Brasília: relator diz que voto distrital misto afasta facções](https://jornaldebrasilia.com.br/noticias/politica-e-poder/relator-diz-que-voto-distrital-misto-afasta-faccoes-e-tem-sinal-positivo-dos-maiores-partidos/)
+
+## Apêndice técnico
+
+### A. Tamanho da Câmara e limites de desvio {#sec-apendice-a}
+
+Foram testados totais de 480 a 632 cadeiras, distribuindo os distritos pelo método Sainte-Laguë com mínimo de 1 por estado. 588 é o menor total que mantém todos os estados com 2 ou mais distritos dentro de ±15% da média nacional e em que apenas 6 estados perdem cadeiras. Com menos cadeiras, estados médios passam a perder (AL a partir de 586, RS a partir de 578); com 596 ou mais, Rondônia ultrapassa os 15% (+16,1% a 596).
+
+O limite de segurança de ±50% para estados de distrito único é o maior desvio que o arredondamento para distritos inteiros pode produzir em um estado com pelo menos meio distrito de população: um estado com 1,49 vez a média recebe 1 distrito (+49%), e um com 1,51 vez recebe 2 (−25%).
+
+### B. Índice de desproporcionalidade entre estados (malapportionment) {#sec-apendice-b}
+
+O índice segue a definição de Samuels e Snyder (2001) [@samuels2001]: metade da soma, em todos os estados, da diferença absoluta entre a fatia de cadeiras ($s$) e a fatia de população ($v$) de cada estado. O resultado é a parcela de cadeiras que está em estados que não deveriam tê-las; 0,104 significa que cerca de 10% das cadeiras estão mal distribuídas.
+
+$$
+MAL = \frac{1}{2}\sum_{i=1}^{27} \lvert s_i - v_i \rvert
+$$
+
+### C. Cláusula de barreira e exceção distrital {#sec-apendice-c}
+
+Uma simulação com os resultados de 2022 [@wiki2022] mostra que qualquer cláusula entre 2,1% e 3,3% produz a mesma Câmara, de modo que 3% não decide o destino de um partido específico. O valor também coincide com a cláusula de desempenho de 3% que vale a partir de 2030. Três distritos em pelo menos 2 estados (cerca de 1% dos distritos) exige uma presença nacional mínima.
+
+### C. Método Sainte-Laguë {#sec-apendice-d}
+
+O método distribui as cadeiras uma a uma. Os votos de cada partido são divididos por 1, 3, 5, 7… e cada cadeira vai para o maior quociente ainda não usado. Um partido que já tem $s$ cadeiras concorre à próxima com o quociente abaixo. Entre todos os métodos de divisores, é o único sem viés sistemático: em média, não dá a partidos grandes nem a pequenos mais cadeiras do que seus votos justificam [@balinski2001; @pukelsheim2017]. Por isso também aproxima ao máximo a fatia de cadeiras da fatia de votos de cada partido. Na prática, é usado na distribuição das cadeiras do Bundestag alemão desde 2009 [@bundeswahlleiterin]. A ordem em que as cadeiras são atribuídas forma a sequência usada para resolver as cadeiras excedentes (etapa 5).
+
+$$
+q = \frac{V}{2s + 1}
+$$
+
+A alternativa mais comum, o método D'Hondt, divide por 1, 2, 3, 4… e favorece sistematicamente os partidos maiores [@pukelsheim2017]. A diferença aparece sobretudo nos estados de 2 cadeiras. Exemplo com votos partidários de A = 60% e B = 25%:
+
+| Cadeira | Sainte-Laguë (÷1, 3, 5…) | D'Hondt (÷1, 2, 3…) |
+|---|---|---|
+| 1ª | A (60) | A (60) |
+| 2ª | B (25 contra 60 ÷ 3 = 20) | A (60 ÷ 2 = 30 contra 25) |
+
+Com Sainte-Laguë, o segundo partido de um estado de 2 cadeiras obtém a segunda cadeira se tiver mais de um terço dos votos partidários do primeiro; com D'Hondt, precisaria de mais da metade.
+
+## Referências
+
+::: {#refs}
+:::
+

@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+lang: pt-BR
+
+website:
+  title: "Um átomo no universo"
+  description: "Ensaios e ideias sobre política, ciência e outros assuntos."
+  site-url: "https://thiagojcb.github.io/blog"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: sobre.qmd
+        text: Sobre
+  page-footer:
+    center: "© 2026 Thiago Bezerra · Feito com [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: true
+    toc-title: "Nesta página"
+    smooth-scroll: true
+    link-external-newwindow: true
