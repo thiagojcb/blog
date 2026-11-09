@@ -25,3 +25,7 @@ format:
     toc-title: "Nesta página"
     smooth-scroll: true
     link-external-newwindow: true
+    include-in-header:
+      text: |
+        <script data-goatcounter="https://thiagojcb.goatcounter.com/count"
+                async src="//gc.zgo.at/count.js"></script>
