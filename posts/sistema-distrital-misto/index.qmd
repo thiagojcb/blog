@@ -1,15 +1,18 @@
 ---
 title: "Proposta de um sistema distrital misto proporcional para a Câmara dos Deputados"
 description: "Com dois votos, 588 cadeiras e peso igual para cada eleitor."
-author:
-  - Thiago Bezerra
-  - Claudio Antropico Opus Quinto
+author: Thiago Bezerra
 date: 2026-11-08
+date-modified: 2026-11-10
 categories: [Reforma política, Eleições]
 bibliography: referencias.bib
 csl: numerico.csl
 link-citations: true
 ---
+
+::: {.callout-note title="Sobre a elaboração deste texto"}
+Este texto foi escrito com o apoio do modelo de linguagem Claude (verão Opus 5.5), da Anthropic, usado em pesquisa de fontes, validação dos cálculos e simulações, redação e revisão. As ideias, as escolhas da proposta e as conclusões são do autor, que revisou todo o conteúdo e é responsável por ele. Erros e sugestões podem ser apontados nos comentários, no fim da página.
+:::
 
 ## Resumo
 
@@ -220,6 +223,11 @@ A alternativa mais comum, o método D'Hondt, divide por 1, 2, 3, 4… e favorece
 | 2ª | B (25 contra 60 ÷ 3 = 20) | A (60 ÷ 2 = 30 contra 25) |
 
 Com Sainte-Laguë, o segundo partido de um estado de 2 cadeiras obtém a segunda cadeira se tiver mais de um terço dos votos partidários do primeiro; com D'Hondt, precisaria de mais da metade.
+
+## Histórico de alterações
+
+- **10/11/2026:** Autoria e aviso sobre o uso de inteligência artificial reorganizados no cabeçalho.
+- **08/11/2026:** Publicação original.
 
 ## Referências
 
